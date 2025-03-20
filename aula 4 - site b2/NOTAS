@@ -1,9 +1,0 @@
-TAGS NOVAS:
-
-<SECTION></SECTION>
-
-Pode ser encaixado entre o <FOOTER> e o <HEADER>, nela é delimitada uma seção, onde se pode colocar título, parágrafos, outras divs e mais
-
-<DIV></DIV>
-
-A div é um container que suporta textos, títulos, parágrafos além de compreender formatação e etc.

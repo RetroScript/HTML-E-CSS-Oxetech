@@ -6,22 +6,65 @@
 	<title>Site b2</title> <!-- Nome da guia-->
 
 	<style type="text/css">
-		
+		/*SELETORES EM CSS*/
+
+		/*
+		seletores são os elementos do HTML dentro do CSS, é basicamente uma maneira de editar os atributos de um tag do HTML dentro do CSS.
+		São Delimitados por chaves, cujos nomes devem referenciar a TAG que se deseja alterar
+		*/
+
+		/* seletor universal */
+		{
+			margin: 0px; /*margem externa*/
+			border: 0px; /*borda entre margem elemento*/
+			padding: 0px; /*distancia do conteúdo interno*/
+		}
+
+
+		/*SELETOR que altera o HEADER*/
+		header{
+			/*muda a cor de fundo*/
+			background-color: #87CEEB;
+			color: #4169E1;
+			padding: 5px;
+
+		}
+
+		/*SELETOR que altera o texto H1*/
 		h1{
-
 			font-family: arial;
-			color: yellow;
+			color: #4169E1;
 			font-size: 50px;
-			background-color: = red;
-
+			text-align: center;
+			margin: 20px;
 		}
 
-		h2{
+		h2, h3, h4, p, img{
 
 			font-family: arial;
-			color: grey;
-
+			margin-left: 250px; /*margem da esquerda*/
+			margin-right: 250px; /*margem da direita*/
+			padding: 10px;
 		}
+
+		p{
+			text-indent: 50px; /*identação da primeira linja do parágrafo*/
+			text-align: justify;
+		}
+
+		footer{
+
+			padding:5px;
+			background-color: #D3D3D3;
+			color: #4169E1;
+		}
+
+		#promo{
+
+			background-color: yellow;
+			font-size: 25px;
+
+		} /*seletor para id*/
 
 	</style>
 
@@ -34,25 +77,21 @@
 
 	</header>
 
-	<section> <!-- É o corpo da página-->
+	<main> <!-- É o corpo da página-->
 
 		<h1>Cidade Criativa do Cinema: Penedo produz animação stop motion com live-action</h1>
 
-		<p>A professora, cineasta e roteirista Andréa Paiva está produzindo e dirigindo um curta-metragem no formato animação em Penedo, Cidade Criativa do Cinema, trabalho desenvolvido por meio do Laboratório Escola de Artes, Tecnologias e Cinema da Universidade Federal de Alagoas (Ufal).</p>
+		<h2>A professora, cineasta e roteirista Andréa Paiva está produzindo e dirigindo um curta-metragem no formato animação em Penedo</h2>
 
-		<p>Azul Índigo é um filme que utiliza a técnica stop motion com live-action para abordar como a poluição afeta mares e oceanos, através da história da garotinha Iara, de 12 anos, e do caranguejo Juvenal, seu amigo.</p>
+		<p id="promo">promoção 10 reais</p> <!-- Parágrafo com ID, identificador-->
+
+		<p>A professora, cineasta e roteirista Andréa Paiva está produzindo e dirigindo um curta-metragem no formato animação em Penedo, Cidade Criativa do Cinema, trabalho desenvolvido por meio do Laboratório Escola de Artes, Tecnologias e Cinema da Universidade Federal de Alagoas (Ufal).</p>
 
 		<img src="img/img0.png">
 
-		<h2>A professora, cineasta e roteirista Andréa Paiva está produzindo e dirigindo um curta-metragem no formato animação em Penedo</h2>
-
-		<p>As fotografias utilizadas para capturar todos os movimentos dos personagens ganham vida na sala de animação. “Os bonecos são articulados, feitos com recortes e ligados a uma técnica de botões e arames. O trabalho é preciso e bastante minucioso”, explica a diretora de Arte Priscilla Calumbi.</p>
-
-	</section>
+	</main>
 
 	<footer> <!-- é o rodapé da pagina -->
-		
-		<h1> olas</h1>
 
 		<p>contato@penedoemfoco.com,br</p>
 		<p>(82) 9 1234-5678</p>
