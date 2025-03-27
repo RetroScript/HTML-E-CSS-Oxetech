@@ -29,46 +29,54 @@ header, footer{
 
 main{
 
-	margin-left: 500px;
-	margin-right: 500px;
-
+	margin-left: 250px;
+	margin-right: 250px;
 	background-color: white;
-	width: window.innerWidth;
-	height: 1000px;
+	
+}
+
+
+.titulo{
+
+	font-family: MontHeavy;
+	font-size: 50px;
+	color: black;
+
+}
+
+.textoDestaque{
+
+	font-family: 'Poppins', sans-serif;
+	/*font-family: Mont ExtraLight DEMO;*/ /*removido por falta de acento*/
+	text-align: justify;
+	font-size: 30;
+	color: black;
 
 }
 
 
+#corpoDaPagina{
 
-h1, h2{
+	margin-top: 100px;
+	margin-bottom: 100px;
 
+}
+
+#textoHeader{
+
+	position: relative;
+	top: 50px;
 	font-family: MontHeavy;
 	color: white;
-}
-
-
-p{
-
-	font-family: Mont ExtraLight DEMO;
 
 }
 
-.titulosChamativos1{
+#textoFooter{
 
+	position: relative;
+	top: 10px;
 	font-family: MontHeavy;
-	/*font-size: 45px;*/
+	color: white;
 
 }
-
-.textosChamativos2{
-
-
-
-}
-
-.placares{
-
-}
-
-
 
