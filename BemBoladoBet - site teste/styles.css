@@ -1,0 +1,74 @@
+@font-face{
+
+	font-family: 'Mont ExtraLight DEMO';
+	src: url('fonts/Mont-ExtraLightDEMO.otf');
+
+
+}
+
+@font-face{
+
+	font-family: 'MontHeavy';
+	src: url('fonts/Mont-HeavyDEMO.otf');
+}
+
+
+*{
+
+	padding: 0;
+	border: 0;
+	margin: 0;
+
+}
+
+header, footer{
+	background-color: #800000;
+	padding: 75px;
+
+}
+
+main{
+
+	margin-left: 500px;
+	margin-right: 500px;
+
+	background-color: white;
+	width: window.innerWidth;
+	height: 1000px;
+
+}
+
+
+
+h1, h2{
+
+	font-family: MontHeavy;
+	color: white;
+}
+
+
+p{
+
+	font-family: Mont ExtraLight DEMO;
+
+}
+
+.titulosChamativos1{
+
+	font-family: MontHeavy;
+	/*font-size: 45px;*/
+
+}
+
+.textosChamativos2{
+
+
+
+}
+
+.placares{
+
+}
+
+
+
