@@ -41,6 +41,6 @@ Quando for necessário fazer uma edição Especial
 
 ##### -ESPAÇAMENTO
 
-# CLASSES EM CSS
+# CLASSES EM CSS - AGRUPANDO TAGS
 
-# ID's EDITAR TAGS SEM GENERALIZAR
+# ID's - EDITAR TAGS SEM GENERALIZAR
