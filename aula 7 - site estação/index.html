@@ -27,6 +27,10 @@
             max-width: 1920; /*Define a largura máxima*/
             min-width: none; /*Define a largura mínima*/
 
+            display: flex;
+            align-items: center;
+            place-content: space-around;
+
         }
 
         main{
@@ -46,7 +50,41 @@
 
         h3{
             color: white; /*Cor de texto*/
-            font-family: Noto Sans;
+            font-family: Noto Sans, sans-serif;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        nav{
+
+            display: flex;
+            gap: 15px;
+            
+
+        }
+
+        a{
+
+            color: white;
+            text-decoration: none;
+            font-family: Noto Sans, sans-serif;
+            font-size: 15px;
+
+        }
+
+        .texto_geral{
+
+            color: #255AA7;
+            font-family: Noto Sans, sans-serif;
+
+        }
+
+        .texto_rodape{
+
+            color: white;
+            font-family: Noto Sans, sans-serif;
+            text-align: center;
+
         }
 
     </style>
@@ -56,16 +94,25 @@
     
     <header> <!-- Cabeçalho-->
         
+        <img src="img/logo_oxetech.png" alt="Logo oxetech">
+
         <h3> Estação Metereológica Automática</h3>
 
+        <nav>
+
+            <a href="">Oxetech</a>
+            <a href="">Sobre</a>
+
+        </nav>
+
     </header>
-    <main> <!-- Conteúdo principal-->
+    <main class="texto_geral"> <!-- Conteúdo principal-->
 
         <h1>Estações Metereológica</h1>
         <h1>Sobre</h1>
 
     </main>
-    <footer> <!-- Rodapé-->
+    <footer class="texto_rodape"> <!-- Rodapé-->
 
         <p>Direitos do projeto</p>
         <p>Contato: oxetech@gmail.com</p>
