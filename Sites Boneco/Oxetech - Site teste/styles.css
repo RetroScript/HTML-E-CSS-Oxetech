@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Poppins;
+    src: url();
+}
+
+*{
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+
+header{
+
+    background-color: blue;
+    
+
+}
+
+main{
+
+}
+
+h1, p{
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+footer{
+
+    background-color: blue;
+    padding: 50px;
+
+}
+
+.sectiHeader{
+
+    background-color: orange;
+
+}
+
+.mainP{
+
+}
+
+#govALLogo{
+
+    /*object-fit: contain;*/ 
+    float: left; 
+    position: absolute; 
+    top: 10px; 
+    margin: 0px; 
+    scale: 50%;
+
+}
+
+#oxeTechLogo{
+
+
+    
+}
