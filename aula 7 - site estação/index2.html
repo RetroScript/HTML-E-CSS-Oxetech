@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <style type="text/css">
+
+        *{
+
+            margin: 0;
+            border: 0;
+            padding: 0;
+
+        }
+
+        header{ /*altera as propriedade do header*/
+
+            /*width: 1920px; /*largura*/
+            width: 100%;
+            height: 75px; /*altura*/
+            background-color: #255AA7;
+            
+            max-width: 1920; /*Define a largura máxima*/
+            min-width: none; /*Define a largura mínima*/
+
+            display: flex;
+            align-items: center;
+            place-content: space-around;
+
+        }
+
+        main{
+
+            width: 1027px;
+            background-color: #D8D8D8;
+            margin: auto;
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 45px;
+        }
+        
+        section{
+
+            display: flex;
+            flex-direction: column;
+            place-content: space-around;
+            gap: 15px;
+
+        }
+        footer{
+
+            width: 100%;
+            background-color: #255AA7;
+
+        }
+
+        h3{
+            color: white; /*Cor de texto*/
+            font-family: Noto Sans, sans-serif;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        nav{
+
+            display: flex;
+            gap: 15px;
+            
+
+        }
+
+        a{
+
+            color: white;
+            text-decoration: none;
+            font-family: Noto Sans, sans-serif;
+            font-size: 15px;
+
+        }
+
+        .texto_geral{
+
+            color: #255AA7;
+            font-family: Noto Sans, sans-serif;
+
+        }
+
+        .texto_rodape{
+
+            color: white;
+            font-family: Noto Sans, sans-serif;
+            text-align: center;
+
+        }
+
+        .container{
+
+            display: flex;
+            padding: 25px;
+           
+
+        }
+
+        #mainCard{
+
+            width: 650px;
+            height: 350px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            place-content: space-between;
+
+            background-color: white;
+            border-radius: 50px;
+        }
+
+        #subCard{
+
+            width: 200px;
+            height: 45px;
+            padding: 15px;
+
+            background-color: #D8D8D8;
+            border-radius: 15px;
+
+        }
+
+        #subTable{
+
+            width: 200px;
+            height: 250px;
+
+            background-color: #D8D8D8;
+            border-radius: 25px;
+
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        #smallTextBox{
+            
+            width: 250px;
+            height: 50px;
+            border-radius: 25px;
+          /*  border-style: dotted;
+            border-color: gray;
+            border: 50px; */
+            background-color: #D8D8D8;
+
+        }
+
+        #largeTextBox{
+
+            width: 600px;
+            height: 150px;
+            border-radius: 25px;
+            background-color: #D8D8D8;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header> <!-- Cabeçalho-->
+        
+        <img src="img/logo_oxetech.png" alt="Logo oxetech">
+
+        <h3> Estação Metereológica Automática</h3>
+
+        <nav>
+
+            <a href="">Oxetech</a>
+            <a href="">Sobre</a>
+
+        </nav>
+
+    </header>
+    <main class="texto_geral"> <!-- Conteúdo principal-->
+
+        <section>
+
+            <h1>Estações Metereológicas</h1>
+
+            <div class="container" id="mainCard">
+
+                <h2 style="margin-right: 350px;">Estação Dom constantino</h2>
+
+                <section>
+
+                    <div class="container" id="subCard">
+
+                        <h4>Temperatura</h4>
+                        
+
+                    </div>
+                    <div class="container" id="subCard">
+
+                        <h4> Humidade Relativa</h4>
+
+                    </div>
+
+                </section>
+                <section>
+
+                    <div class="container" id="subTable"></div>
+
+                </section>
+                
+            </div>
+            
+            <div class="container" id="mainCard">
+                
+                <h2 style="margin-right: 350px;">Estação centro</h2>
+                
+                <section>
+    
+                    <div class="container" id="subCard">
+
+                        <h4>Temperatura</h4>
+
+                    </div>
+                    <div class="container" id="subCard">
+
+                        <h4>Humidade Relativa</h4>
+
+                    </div>
+    
+                </section>
+                <section>
+    
+                    <div class="container" id="subTable"></div>
+    
+                </section>
+
+            </div>
+
+        </section>
+        <section>
+
+            <h1>Sobre</h1>
+            <div class="container" id="mainCard">
+
+                <h4 style="margin-right: 350px;">Turmas do projeto</h4>
+
+                <div class="container" id="smallTextBox">
+
+                    <h6>Turma...</h6>
+
+                </div>
+                <div class="container" id="smallTextBox">
+
+                    <h6>Turma...</h6>
+
+                </div>
+
+                <h4 style="margin-right: 350px;"> descrição</h4>
+
+                <div class="container" id="largeTextBox">
+
+                    <h6>Esse projeto...</h6>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+
+    </main>
+    <footer class="texto_rodape"> <!-- Rodapé-->
+
+        <p>Direitos do projeto</p>
+        <p>Contato: oxetech@gmail.com</p>
+
+    </footer>
+
+</body>
+
+</html>
