@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <title></title>
+
+    <style>
+        *{
+            font-family: Noto Sans, sans-serif;
+            margin: 0px;
+            padding: 0px;
+
+        }
+        header{
+            display: flex;
+            background-color: #255AA7;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            border-style: double;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /*vh - view height*/
+        }
+        main{
+            flex: 1;
+            background-color: #D8D8D8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer{
+            background-color: #255AA7;
+            color: white;
+            text-align: center;
+        }
+        h1{
+            font-size: 45px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        nav{
+            display: flex;
+            gap: 25px;
+            border-style: double;
+        }
+        table{
+
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 6px;
+            background-color: #D8D8D8;
+
+            box-shadow: 0 4px 6px #2559a79e;
+        }
+        td{
+            padding: 5px;
+        }
+        tr{
+            display: flex;
+            justify-content: space-around;
+        }
+        thead{
+            display: flex;
+            padding: 5px;
+            flex-direction: column;
+
+            background-color: #D8D8D8;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        }
+        tbody{
+            display: flex;
+            flex-direction: column;
+            
+            padding: 5px;
+            background-color: #D8D8D8;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            background-color: white;
+            border-radius: 50px;
+            padding: 50px;
+        }
+        .cardItens{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+
+        }
+        .itens{
+
+            text-wrap: wrap;
+            font-weight: 700;
+            
+            border: 1px solid black;
+            border-radius: 8px;
+            background-color: #D8D8D8;
+            padding: 20px;
+            
+            box-shadow: 0 4px 6px #2559a79e;
+           
+        }
+        .title{
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid black;
+            background-color: #D8D8D8;
+
+            box-shadow: 0 6px 8px #2559a79e;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Estação Metereológica Automática</h1>
+        <nav>
+            <a href="https://oxetech.al.gov.br/">Oxetech</a>
+            <a href="">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2 class="title">Estação Dom Constantino</h2>
+            <section class="cardItens">
+                <div class="itens">
+                    <p>temperatura </p>
+                    <p>--°C</p>
+                </div>
+                <div class="itens">
+                    <p>humidade</p>  
+                    <p>--%</p>
+                </div>
+                <div class="itens">
+                    <p>pressão</p>
+                    <p>--hPa</p>
+                </div>
+            </section>
+
+            <h2 class="title">Atualizações</h2>
+
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>HORA</td>
+                            <td>segunda</td>
+                            <td>terça</td>
+                            <td>quarta</td>
+                            <td>quinta</td>
+                            <td>sexta</td>
+                            <td>sabado</td>
+                            <td>domingo</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                        <tr>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+</body>
+
+
+</html>

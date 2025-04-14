@@ -53,7 +53,30 @@
             border-style: double;
         }
         .card{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            
             background-color: white;
+            padding: 72px;
+            border-radius: 24px;
+        }
+        .cardItens{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        p{
+            align-items: center;
+            justify-items: center;
+            padding: 26px;
+            /*border: 1px solid black;*/
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+
+            font-weight: 800;
+            text-wrap: wrap;
         }
     </style>
 
@@ -69,10 +92,10 @@
     <main>
         <section class="card">
             <h2>Estação Dom Constantino</h2>
-            <section>
-                <p>temperatura</p>
-                <p>humidade</p>
-                <p>pressão</p>
+            <section class="cardItens">
+                <p>temperatura --ºC</p>
+                <p>humidade --%</p>
+                <p>pressão --hPa</p>
             </section>
         </section>
     </main>
